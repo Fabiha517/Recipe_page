@@ -34,13 +34,12 @@ This is a responsive recipe page that displays the preparation time, ingredients
 ![Screenshot of Recipe Page(Desktop)](screenshot-desktop.png)
 ![Screenshot of Recipe Page(Mobile)](screenshot-mobile.png)
 
-Note: Replace the image above with an actual screenshot of your final design.
 
 🔗 Links
 
-🔧 Solution URL: GitHub Repo
+🔧 Solution URL: GitHub Repo(https://github.com/Fabiha517/Recipe_page.git)
 
-🌐 Live Site URL: Live Page
+🌐 Live Site URL: Live Page(https://Fabiha517.github.io/Recipe-page/)
 
 🛠️ My process
 
