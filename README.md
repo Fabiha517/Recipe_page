@@ -39,7 +39,7 @@ This is a responsive recipe page that displays the preparation time, ingredients
 
 🔧 Solution URL: GitHub Repo(https://github.com/Fabiha517/Recipe_page.git)
 
-🌐 Live Site URL: Live Page(https://Fabiha517.github.io/Recipe-page/)
+🌐 Live Site URL: Live Page(https://Fabiha517.github.io/Recipe_page/)
 
 🛠️ My process
 
