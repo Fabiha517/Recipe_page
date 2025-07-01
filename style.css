@@ -1,0 +1,201 @@
+/* Reset default browser styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/* Base styles for the body */
+body {
+	font-family: "Outfit", sans-serif;
+	font-weight: 400;
+	color: hsl(30, 10%, 34%); /* Paragraph text color */
+	line-height: 2;
+}
+/* Main card container */
+.card {
+	width: 100%;
+	padding: 1.9rem;
+
+	background-color: hsl(0, 0%, 100%); /* White background for the entire card */
+}
+/* Main recipe title */
+.card h1 {
+	font-family: "Young Serif", serif; /* Heading font */
+	font-size: 2.3rem; /* Heading font size */
+	color: hsl(24, 5%, 18%); /* Dark heading color */
+	font-weight: 400;
+	margin-top: 1rem;
+	line-height: 1;
+	margin-bottom: 1.5rem;
+}
+
+/* Paragraphs inside the card */
+.card p {
+	line-height: 1.5;
+	margin-top: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+/* === Preparation Time Section === */
+.PreparationTime {
+	background-color: hsl(330, 100%, 98%); /* Light pink background */
+	padding: 1rem;
+	border-radius: 0.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+/* Heading inside Preparation Time */
+.PreparationTime h3 {
+	margin-left: 0.5rem;
+	font-family: "outfit", sans-serif;
+	color: hsl(332, 51%, 32%); /* Heading color */
+}
+/* Padding on the right for better spacing of list */
+.PreparationTime ul {
+	padding-right: 20px;
+}
+
+/* List items inside Preparation Time */
+ul li {
+	padding-left: 1rem; /* Space between bullet and text */
+}
+/* Centering bullet points in Preparation Time */
+
+/* Styling bullet points in <ul> */
+ul li::marker {
+	color: hsl(14, 45%, 36%);
+	font-size: 0.8rem;
+}
+strong {
+	font-weight: 700;
+}
+/* Add consistent padding to both ul and ol */
+ul,
+ol {
+	padding-left: 2rem;
+	/* padding-right: 1.2rem; */
+}
+
+/* Section headings like “Ingredients”, “Instructions”, “Nutrition” */
+h2 {
+	font-family: "Young Serif", serif;
+	font-size: 1.8rem;
+	color: hsl(14, 45%, 36%);
+	font-weight: 400;
+}
+.Ingredients {
+	padding-bottom: 2rem;
+	border-bottom: 0.5px solid hsl(30, 18%, 87%);
+}
+.Instructions {
+	padding-top: 1.2rem;
+	padding-bottom: 2rem;
+	line-height: 1.5;
+	border-bottom: 0.5px solid hsl(30, 18%, 87%);
+}
+/* Styling numbers in ordered list (Instructions) */
+ol li::marker {
+	color: hsl(14, 45%, 36%);
+	font-weight: bold;
+}
+
+/* Padding for ordered list items (instructions) */
+ol li {
+	padding-left: 1rem;
+}
+.Nutrition {
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+	line-height: 1.5;
+}
+.Nutrition p {
+	margin-bottom: 1.5rem;
+}
+/* Nutrition table styles */
+.Nutrition table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+table td {
+	padding: 1rem 2rem;
+	font-size: 1rem;
+}
+.table-divider {
+	border-bottom: 0.5px solid hsl(30, 18%, 87%);
+}
+/* Special class for bold nutrition values */
+.values {
+	color: hsl(14, 45%, 36%);
+	font-weight: 700;
+}
+
+/* Footer styles */
+.attribution {
+	font-size: 0.8rem;
+	text-align: center;
+	color: hsl(30, 10%, 34%);
+	margin-top: 2rem;
+	
+}
+
+footer a {
+	font-size: 0.8rem;
+	color: hsl(14, 45%, 36%);
+	text-decoration: none;
+}
+/* ====================== */
+/*  Media Queries Below */
+/* ====================== */
+@media (min-width: 1440px) {
+	* {
+		box-sizing: border-box;
+		font-size: 1.03rem;
+	}
+	.container {
+		max-width: 100%;
+		padding: 10rem 20rem;
+		background-color: hsl(30, 54%, 90%);
+	}
+	img {
+		max-width: 100%;
+		margin: 0 auto;
+		border-radius: 2rem;
+		margin-bottom: 1rem;
+	}
+	.Wrapper {
+		background-color: hsl(0, 0%, 100%);
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 2.5rem;
+		border-radius: 2rem;
+	}
+	.card {
+		padding: 0%;
+	}
+	.card h1 {
+		font-size: 2.4rem; /* Adjusted heading size for larger screens */
+	}
+	h2 {
+		font-size: 1.8rem; /* Adjusted section heading size for larger screens */
+	}
+	h3 {
+		font-size: 1.3rem; /* Adjusted subheading size for larger screens */
+	}
+	.Instructions {
+		line-height: 1.6; /* Increased line height for better readability */
+	}
+	.Nutrition p {
+		margin-top: 1.3rem;
+		margin-bottom: 1rem;
+	}
+	.Nutrition td {
+		padding: 0.6rem 1rem;
+	}
+}
